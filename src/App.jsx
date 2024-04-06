@@ -21,8 +21,8 @@ const App = () => {
         <Services />
         <Title subTitle="Contact Us" context="Store Info" />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
     </div>
     // </BrowserRouter>
   );
