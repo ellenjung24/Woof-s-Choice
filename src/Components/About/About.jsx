@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 // import dog1 from "../../assets/grooming_dog1.jpg";
-import dog2 from "../../assets/dog.png";
+import dog2 from "../../assets/dog4.png";
 // import dog3 from "../../assets/mongle1.jpeg";
 // import next_icon from "../../assets/next_icon.png";
 // import back_icon from "../../assets/back_icon.png";
