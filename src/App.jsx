@@ -5,6 +5,7 @@ import Services from "./Components/Services/Services";
 import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Services />
         <Title subTitle="Contact Us" context="Store Info" />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
