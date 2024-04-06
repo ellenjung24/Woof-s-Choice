@@ -92,10 +92,14 @@
 }
 
 .booking {
-    margin-top: 30px;
+    margin-top: 60px;
     text-align: center;
 }
 
+.booking h1 {
+    margin-bottom: 30px;
+}
+
 .book-online {
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
