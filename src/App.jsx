@@ -11,10 +11,11 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle="About us" context="Our Awesome Reviews" />
+        {/* <Title subTitle="About us" context="When it comes to pet grooming we believe that:" /> */}
         <About />
         <Title subTitle="Our Services" context="What We offer" />
         <Services />
+        <Title subTitle="Contact Us" context="Salon Info" />
       </div>
     </div>
   );
