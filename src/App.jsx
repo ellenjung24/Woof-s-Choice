@@ -6,9 +6,11 @@ import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
   return (
+    <BrowserRouter>
     <div>
       <Navbar />
       <Hero />
@@ -22,6 +24,7 @@ const App = () => {
         <Footer />
       </div>
     </div>
+    </BrowserRouter>
   );
 };
 
