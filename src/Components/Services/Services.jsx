@@ -85,7 +85,7 @@ const Services = () => {
     </div>
 
     <div className="booking">
-      <h1>Book Online below or call 778-512-2431</h1>
+      <h1>Book Online below or call 778-874-9221</h1>
       <div className="book-online">
 
       </div>
