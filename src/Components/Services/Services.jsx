@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "./Services.scss";
 import small from "../../assets/small.jpeg";
 import medium from "../../assets/medium.jpeg";
 import large from "../../assets/large.jpeg";
@@ -43,8 +43,8 @@ const Services = () => {
           <p className="description"><i>Full clipping, hand scissoring to finish,, face trim, bath and blow dry, brush out, pads and paws shaping, nail trim, ear cleaning, sanitary trim, Anal glands</i></p>
           <ul>
             <li>$85 - up to 30lbs</li>
-            <li>$120 - up to 49 lbs</li>
-            <li>$140 - 50 lbs +</li>
+            <li>$120 - up to 49lbs</li>
+            <li>$140 - 50lbs +</li>
           </ul>
         </div>
         <div className="price">
