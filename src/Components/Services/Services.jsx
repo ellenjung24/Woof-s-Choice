@@ -34,8 +34,6 @@ const Services = () => {
       </div>
     </div>
 
-    {/* <h1 className="prices-title">Prices</h1>` */}
-
     <div className="prices">
       <div className="all-services">
         <div className="price">

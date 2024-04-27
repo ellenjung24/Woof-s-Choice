@@ -1,18 +1,13 @@
 import React from "react";
 import "./About.scss";
-// import dog1 from "../../assets/grooming_dog1.jpg";
 import dog2 from "../../assets/dog4.png";
-// import dog3 from "../../assets/mongle1.jpeg";
-// import next_icon from "../../assets/next_icon.png";
-// import back_icon from "../../assets/back_icon.png";
+
 
 const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        {/* <img src={dog1} alt="" /> */}
         <img src={dog2} alt="" className="about-img"/>
-        {/* <img src={dog3} alt="" /> */}
       </div>
       <div className="about-right">
         <h3>ABOUT US</h3>

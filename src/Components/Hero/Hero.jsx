@@ -10,7 +10,6 @@ const Hero = () => {
         <p>At our salon, we are dedicated to providing top-notch care for your beloved pet.<br></br> With a comprehensive range of services, we ensure your furry friend stays beautiful and content.</p>
         <br />
         <Link to="booking" smooth={true} offset={-160} duration={500} className='btn'>Book now</Link>
-        {/* <button className="btn" >Book now</button> */}
         </div>
     </div>
   )
