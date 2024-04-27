@@ -6,6 +6,7 @@ import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import Promotion from "./Components/Promotion/Promotion";
 // import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <Promotion />
       <div className="container">
         {/* <Title subTitle="About us" context="When it comes to pet grooming we believe that:" /> */}
         <About />
