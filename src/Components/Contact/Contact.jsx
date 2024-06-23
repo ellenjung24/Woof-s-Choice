@@ -38,12 +38,12 @@ const Contact = () => {
           2712 W 4th Ave, Vancouver, BC V6K 1R1
         </div>
         <p className="contact-title">Phone</p>
-        <div className="contact-info">778-874-9221</div>
+        <div className="contact-info">604-731-1692</div>
         <p className="contact-title">Email</p>
-        <div className="contact-info">woofschoicepetgrooming@gmail.com</div>
+        <div className="contact-info">woofschoicegrooming@gmail.com</div>
         <p className="contact-title">Hours</p>
         <div className="contact-info">
-          <p><b>Mon</b>&nbsp; 9:00 a.m. - 06:00 p.m.</p>
+          <p><b>Mon</b>&nbsp; Closed</p>
           <p><b>Tue</b>&nbsp;&nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
           <p><b>Wed</b>&nbsp; 9:00 a.m. - 06:00 p.m.</p>
           <p><b>Thu</b>&nbsp;&nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
