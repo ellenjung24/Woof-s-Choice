@@ -43,11 +43,11 @@ const Contact = () => {
         <div className="contact-info">woofschoicegrooming@gmail.com</div>
         <p className="contact-title">Hours</p>
         <div className="contact-info">
-          <p><b>Mon</b>&nbsp; Closed</p>
-          <p><b>Tue</b>&nbsp;&nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
-          <p><b>Wed</b>&nbsp; 9:00 a.m. - 06:00 p.m.</p>
-          <p><b>Thu</b>&nbsp;&nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
-          <p><b>Fri</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00 a.m. - 06:00 p.m.</p>
+          <p><b>Mon</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          <p><b>Tue</b>&nbsp;&nbsp;&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          <p><b>Wed</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          <p><b>Thu</b>&nbsp;&nbsp;&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          <p><b>Fri</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 a.m. - 06:00 p.m.</p>
           <p><b>Sat</b> &nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
           <p><b>Sun</b> &nbsp;&nbsp;9:00 a.m. - 06:00 p.m.</p>
         </div>

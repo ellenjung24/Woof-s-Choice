@@ -5,9 +5,10 @@ import './Promotion.scss'
 const Promotion = () => {
   return (
         <div className="promotion">
-            <h2>Special Promotion for Grand Opening!</h2>
-            <p>from August 1st to September 1st</p>
-            <h3>aaaaaaaaaaaaaaaaa</h3>
+            <h3>Grand Opening Event</h3>
+            <h2>Free Nail Clipping</h2>
+            <p>EXPIRES September 30, 2024</p>
+            
         </div>
   )
 }
