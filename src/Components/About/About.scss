@@ -43,3 +43,28 @@
 .name_emp {
     font-weight: 1000;
 }
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+        margin: 30px auto;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .about-left {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+
+    .about-right {
+        flex-basis: 100%;
+    }
+}

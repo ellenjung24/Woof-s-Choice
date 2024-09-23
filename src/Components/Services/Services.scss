@@ -100,3 +100,24 @@
 .book-online {
     margin-bottom: 100px;
 }
+
+@media (max-width: 850px) {
+    // .services {
+    //     flex-direction: column;
+    //     margin: 30px auto;
+    // }
+
+    // .service {
+    //     flex-basis: 100%;
+    //     margin: 20px;
+
+    //     & > img {
+    //         width: 350px;
+    //         height: 350px;
+    //     }
+    // }
+    
+    .services {
+        display: none;
+    }
+}
