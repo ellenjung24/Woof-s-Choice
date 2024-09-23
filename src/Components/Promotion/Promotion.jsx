@@ -1,13 +1,14 @@
 import React from 'react'
 import './Promotion.scss'
+import freeNailClipping from '../../assets/free_nail_clipping.png'
 
 
 const Promotion = () => {
   return (
         <div className="promotion">
             <h3>Grand Opening Event</h3>
-            <h2>Free Nail Clipping</h2>
-            <p>EXPIRES September 30, 2024</p>
+            <img src={freeNailClipping} alt="" />
+            <p>EXPIRES October 31, 2024</p>
             
         </div>
   )
