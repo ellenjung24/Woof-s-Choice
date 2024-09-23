@@ -20,10 +20,61 @@ nav{
 }
 
 .logo {
-    width: 250px;
+    width: 150px;
+    margin-left: 100px;
 }
 
 .dark-nav{
     background: #bea5b5;
     transition: 0.3s;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 1040px) {
+    .logo {
+        width: 140px;
+        margin-left: 10px;
+    }
+    nav ul li {
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 850px) {
+    nav {
+        padding: 15px 0;
+
+        ul {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #bea5b5;
+            z-index: -1;
+            width: 200px;
+            padding-top: 70px;
+            transition: 0.5s;
+            
+            li {
+                display: block;
+                margin: 25px 40px;
+            }
+        }
+    }
+
+    .menu-icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        margin-left: 10px;
+        position: fixed;
+        right: 30px;
+    }
+
+    .hide-mobile-menu {
+        right: -200px;
+    }
 }
