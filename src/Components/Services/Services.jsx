@@ -64,7 +64,7 @@ const Services = () => {
           </ul>
         </div>
       </div>
-      <div className="price">
+      <div className="price fine-print">
         <h2>THE FINE PRINT (PLEASE READ!)</h2>
         <p className="description"><i>Prices depend on size of dog, breed of dog, condition of the coat, type of coat and behaviour of dog</i></p>
         <div>
