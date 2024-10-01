@@ -20,9 +20,12 @@
         width: 30%;
         margin: 20px 0;
     }
+}
 
-
-    // h3 {
-    //     margin-top: 10px;
-    // }
+@media (max-width: 1000px) {
+    .promotion {
+        img {
+            width: 400px;
+        }
+    }
 }
