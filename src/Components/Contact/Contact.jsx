@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
       
       </div>
-      <div className="contact-col">
+      <div className="contact-col contact-form">
         <form onSubmit={onSubmit}>
             <label htmlFor="">Your Name</label>
             <input type="text" name="name" placeholder="Enter your name"  required/>
