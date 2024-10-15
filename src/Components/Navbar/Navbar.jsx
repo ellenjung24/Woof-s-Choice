@@ -32,7 +32,7 @@ const Navbar = () => {
         <li><Link to="about" smooth={true} offset={-150} duration={500}>About us</Link></li>
         <li><Link to="services" smooth={true} offset={-260} duration={500}>Services</Link></li>
         <li><Link to="contact" smooth={true} offset={-260} duration={500}>Contact us</Link></li>
-        <li><a href="https://app.acuityscheduling.com/schedule.php?owner=32025918" target="_blank" className='btn'>Book</a></li>
+        <li><a href="https://app.acuityscheduling.com/schedule.php?owner=33051599" target="_blank" className='btn'>Book</a></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>

@@ -119,8 +119,7 @@ const Services = () => {
             <p className="policy-title">Cancellation/Rescheduling Policy:</p>
             <p className="policy-description">
               Cancellation notice of 24 hours is required. Notice of less than
-              24 hours is subjected to a $15 cancellation fee for dogs 30lb and
-              under, or $20 for dogs over 30lb. You may choose to reschedule
+              24 hours is subjected to a $15 cancellation fee. You may choose to reschedule
               your appointment with at least 24 hours notice at no charge.
             </p>
           </div>
@@ -129,7 +128,7 @@ const Services = () => {
             <p className="policy-description">
               We appreciate a call if you are anticipating to be late. If you
               are more than 10 minutes late without notification, a fee may be
-              applied at our discretion. We may also chose to reschedule you due
+              applied at our discretion. We may also choose to reschedule you due
               to time restraints. Late Pick ups: please pick up your pets at the
               notified time. Dogs not picked up within a reasonable time will be
               subjected to a $1/minute fee or at end of day, a $50/night
@@ -150,17 +149,7 @@ const Services = () => {
       <div className="booking">
         <h1>Book Online below or call {isMobile && <br />} 604-731-1692</h1>
         <div className="book-online">
-          <iframe
-            src="https://app.acuityscheduling.com/schedule.php?owner=33051599"
-            title="Schedule Appointment"
-            width="70%"
-            height="800"
-            frameBorder="0"
-          ></iframe>
-          <script
-            src="https://embed.acuityscheduling.com/js/embed.js"
-            type="text/javascript"
-          ></script>
+          <iframe src="https://app.acuityscheduling.com/schedule.php?owner=33051599&ref=embedded_csp" title="Schedule Appointment" width="70%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
         </div>
       </div>
     </>

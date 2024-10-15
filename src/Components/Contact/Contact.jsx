@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
         <p className="contact-title">Parking</p>
         <div className="contact-info">
-          Parking is available in the back of the building
+          Parking is available at the back of the building
         </div>
         <p className="contact-title">Phone</p>
         <div className="contact-info">604-731-1692</div>
@@ -58,7 +58,7 @@ const Contact = () => {
           <p><b>Sat - Sun</b>&nbsp; 09:00 a.m. - 06:00 p.m.</p>
         </div>
       
-      </div>
+      </div>b4214e
       <div className="contact-col contact-form">
         <form onSubmit={onSubmit}>
             <label htmlFor="">Your Name</label>
