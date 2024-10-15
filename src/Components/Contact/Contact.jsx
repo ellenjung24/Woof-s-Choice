@@ -35,7 +35,11 @@ const Contact = () => {
         <p className="contact-description">We love caring for your furry friend! Call us for a meet and greet or to schedule any service appointment. If you have a special request send us a message, and we'll get back to you as soon as we can!</p>
         <p className="contact-title">Address</p>
         <div className="contact-info">
-          2712 W 4th Ave, Vancouver, BC V6K 1R1
+          2712 W 4th Ave, Vancouver, BC V6K 1R1 <br />
+        </div>
+        <p className="contact-title">Parking</p>
+        <div className="contact-info">
+          Parking is available in the back of the building
         </div>
         <p className="contact-title">Phone</p>
         <div className="contact-info">604-731-1692</div>
@@ -43,13 +47,15 @@ const Contact = () => {
         <div className="contact-info">woofschoicegrooming@gmail.com</div>
         <p className="contact-title">Hours</p>
         <div className="contact-info">
-          <p><b>Mon</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          {/* <p><b>Mon</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
           <p><b>Tue</b>&nbsp;&nbsp;&nbsp; 10:00 a.m. - 06:00 p.m.</p>
           <p><b>Wed</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
           <p><b>Thu</b>&nbsp;&nbsp;&nbsp; 10:00 a.m. - 06:00 p.m.</p>
           <p><b>Fri</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 a.m. - 06:00 p.m.</p>
           <p><b>Sat</b> &nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
-          <p><b>Sun</b> &nbsp;&nbsp;9:00 a.m. - 06:00 p.m.</p>
+          <p><b>Sun</b> &nbsp;&nbsp;9:00 a.m. - 06:00 p.m.</p> */}
+          <p><b>Mon - Fri</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          <p><b>Sat - Sun</b>&nbsp; 09:00 a.m. - 06:00 p.m.</p>
         </div>
       
       </div>

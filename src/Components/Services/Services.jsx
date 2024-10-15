@@ -62,27 +62,34 @@ const Services = () => {
             <h2>FULL GROOMING</h2>
             <p className="description">
               <i>
-                Full clipping, hand scissoring to finish,, face trim, bath and
-                blow dry, brush out, pads and paws shaping, nail trim, ear
-                cleaning, sanitary trim, Anal glands
+                Includes full clipping, hand scissoring to finish, bath with premium shampoo & conditioner and
+                blow dry, brush out, pads and paws & nail trim, ear
+                cleaning, sanitary trim, anal glands 
               </i>
             </p>
             <ul>
-              <li>$85 - up to 30lbs</li>
-              <li>$120 - up to 49lbs</li>
-              <li>$140 - 50lbs +</li>
+              <li>Small (up to 15lbs) - $80 ~</li>
+              <li>Medium (up to 40lbs) - $95 ~</li>
+              <li>Large (up to 67lbs) - $110 ~</li>
+              <li>X-Large (up to 90lbs) - $130 ~</li>
+              <li>Giant (91lbs +) - Contact us</li>
             </ul>
           </div>
           <div className="price">
             <h2>BATH AND TIDY</h2>
             <p className="description">
               <i>
-                Face trim, Pad trim and Paws shaping, Sanitary trim, bath and
-                heat blow dry, nail trim, ear cleaning
+              Includes bath with premium shampoo & conditioner and
+                blow dry, brush out, pads and paws & nail trim, ear
+                cleaning, sanitary trim, anal glands
               </i>
             </p>
             <ul>
-              <li>$70 and up depending on breed and style</li>
+              <li>Small (up to 15lbs) - $60 ~</li>
+              <li>Medium (up to 40lbs) - $75 ~</li>
+              <li>Large (up to 67lbs) - $90 ~</li>
+              <li>X-Large (up to 90lbs) - $110 ~</li>
+              <li>Giant (91lbs +) - Contact us</li>
             </ul>
           </div>
           <div className="price">
@@ -133,7 +140,7 @@ const Services = () => {
             <p className="policy-title">No Show Policy:</p>
             <p className="policy-description">
               Clients who are no-show will not be allowed to book online moving
-              forward. Please call 604-682-1899 to make future appointments.
+              forward. Please call 604-731-1692 to make future appointments.
               There will also be a $20 charge towards your next appointment.
             </p>
           </div>
