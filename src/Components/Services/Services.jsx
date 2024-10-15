@@ -149,7 +149,7 @@ const Services = () => {
       <div className="booking">
         <h1>Book Online below or call {isMobile && <br />} 604-731-1692</h1>
         <div className="book-online">
-          <iframe src="https://app.acuityscheduling.com/schedule.php?owner=33051599&ref=embedded_csp" title="Schedule Appointment" width="70%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
+          <iframe src="https://app.acuityscheduling.com/schedule.php?owner=33051599&ref=embedded_csp" className="booking-system" title="Schedule Appointment" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
         </div>
       </div>
     </>
