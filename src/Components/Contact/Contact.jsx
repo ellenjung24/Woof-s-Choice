@@ -58,7 +58,7 @@ const Contact = () => {
           <p><b>Sat - Sun</b>&nbsp; 09:00 a.m. - 06:00 p.m.</p>
         </div>
       
-      </div>b4214e
+      </div>
       <div className="contact-col contact-form">
         <form onSubmit={onSubmit}>
             <label htmlFor="">Your Name</label>
