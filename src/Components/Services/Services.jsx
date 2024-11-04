@@ -64,15 +64,17 @@ const Services = () => {
               <i>
                 Includes full clipping, hand scissoring to finish, bath with premium shampoo & conditioner and
                 blow dry, brush out, pads and paws & nail trim, ear
-                cleaning, sanitary trim, anal glands 
+                cleaning, sanitary trim, anal glands. Any extra de-matting is additional charge ($10 every 15 mins).
               </i>
             </p>
             <ul>
-              <li>Small (up to 15lbs) - $80 ~</li>
-              <li>Medium (up to 40lbs) - $95 ~</li>
-              <li>Large (up to 67lbs) - $110 ~</li>
-              <li>X-Large (up to 90lbs) - $130 ~</li>
-              <li>Giant (91lbs +) - Contact us</li>
+              <li>X-Small (under 12lbs) - $75 ~</li>
+              <li>Small (13-20lbs) - $80 ~</li>
+              <li>Small-Medium (21-30lbs) - $85 ~</li>
+              <li>Medium (31-45lbs) - $100 ~</li>
+              <li>Large (46-70lbs) - $115 ~</li>
+              <li>X-Large (71-90lbs) - $130 ~</li>
+              <li>Giant (over 91lbs) - Contact us</li>
             </ul>
           </div>
           <div className="price">
@@ -81,15 +83,17 @@ const Services = () => {
               <i>
               Includes bath with premium shampoo & conditioner and
                 blow dry, brush out, pads and paws & nail trim, ear
-                cleaning, sanitary trim, anal glands
+                cleaning, sanitary trim, anal glands. Any extra de-matting is additional charge ($10 every 15 mins).
               </i>
             </p>
             <ul>
-              <li>Small (up to 15lbs) - $60 ~</li>
-              <li>Medium (up to 40lbs) - $75 ~</li>
-              <li>Large (up to 67lbs) - $90 ~</li>
-              <li>X-Large (up to 90lbs) - $110 ~</li>
-              <li>Giant (91lbs +) - Contact us</li>
+              <li>X-Small (under 12lbs) - $60 ~</li>
+              <li>Small (13-20lbs) - $65 ~</li>
+              <li>Small-Medium (u21-30lbs) - $70 ~</li>
+              <li>Medium (31-40lbs) - $75 ~</li>
+              <li>Large (41-65lbs) - $90 ~</li>
+              <li>X-Large (66-90lbs) - $110 ~</li>
+              <li>Giant (over 91lbs) - Contact us</li>
             </ul>
           </div>
           <div className="price">
@@ -112,7 +116,7 @@ const Services = () => {
           <p className="description">
             <i>
               Prices depend on size of dog, breed of dog, condition of the coat,
-              type of coat and behaviour of dog
+              type of coat and behaviour of dog.
             </i>
           </p>
           <div>
