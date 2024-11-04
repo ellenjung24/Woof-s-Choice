@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 .services {
     margin: 80px auto;
     width: 90%;
@@ -52,6 +54,15 @@
     column-gap: 60px;
     row-gap: 30px;
     color: #676767;
+}
+
+.warning {
+    padding: 0 200px 20px;
+    font-size: 25px;
+    color: rgba(99, 1, 89, 0.616);
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .all-services {
@@ -110,6 +121,11 @@
         padding: 0 20px;
     }
 
+    .warning {
+        padding: 0 20px 20px;
+        font-size: 21px;
+    }
+
     .book-online {
         margin-bottom: 0;
     }
@@ -123,6 +139,11 @@
     .prices {
         display: block;
         padding: 0 10px;
+    }
+
+    .warning {
+        padding: 0 10px 20px;
+        font-size: 19px;
     }
 
     .price {

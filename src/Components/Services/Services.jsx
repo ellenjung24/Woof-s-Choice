@@ -56,6 +56,7 @@ const Services = () => {
         </div>
       </div>
 
+      <div className="warning">Prices depend on * size of dog, breed of dog, condition of the coat, type of coat and behaviour of dog *</div>
       <div className="prices">
         <div className="all-services">
           <div className="price">
@@ -70,10 +71,10 @@ const Services = () => {
             <ul>
               <li>X-Small (under 12lbs) - $75 ~</li>
               <li>Small (13-20lbs) - $80 ~</li>
-              <li>Small-Medium (21-30lbs) - $85 ~</li>
-              <li>Medium (31-45lbs) - $100 ~</li>
-              <li>Large (46-70lbs) - $115 ~</li>
-              <li>X-Large (71-90lbs) - $130 ~</li>
+              <li>Medium (21-30lbs) - $85 ~</li>
+              <li>Large (31-45lbs) - $100 ~</li>
+              <li>X-Large (46-70lbs) - $115 ~</li>
+              <li>XX-Large (71-90lbs) - $130 ~</li>
               <li>Giant (over 91lbs) - Contact us</li>
             </ul>
           </div>
@@ -89,10 +90,10 @@ const Services = () => {
             <ul>
               <li>X-Small (under 12lbs) - $60 ~</li>
               <li>Small (13-20lbs) - $65 ~</li>
-              <li>Small-Medium (u21-30lbs) - $70 ~</li>
-              <li>Medium (31-40lbs) - $75 ~</li>
-              <li>Large (41-65lbs) - $90 ~</li>
-              <li>X-Large (66-90lbs) - $110 ~</li>
+              <li>Medium (21-30lbs) - $70 ~</li>
+              <li>Large (31-40lbs) - $75 ~</li>
+              <li>X-Large (41-65lbs) - $90 ~</li>
+              <li>XX-Large (66-90lbs) - $110 ~</li>
               <li>Giant (over 91lbs) - Contact us</li>
             </ul>
           </div>
@@ -113,12 +114,12 @@ const Services = () => {
         </div>
         <div className="price fine-print">
           <h2>THE FINE PRINT (PLEASE READ!)</h2>
-          <p className="description">
+          {/* <p className="description">
             <i>
               Prices depend on size of dog, breed of dog, condition of the coat,
               type of coat and behaviour of dog.
             </i>
-          </p>
+          </p> */}
           <div>
             <p className="policy-title">Cancellation/Rescheduling Policy:</p>
             <p className="policy-description">
