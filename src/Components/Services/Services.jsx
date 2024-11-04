@@ -64,7 +64,7 @@ const Services = () => {
               <i>
                 Includes full clipping, hand scissoring to finish, bath with premium shampoo & conditioner and
                 blow dry, brush out, pads and paws & nail trim, ear
-                cleaning, sanitary trim, anal glands. Any extra de-matting is additional charge ($10 every 15 mins).
+                cleaning, sanitary trim, anal glands. Any extra de-matting is additional charge ($10).
               </i>
             </p>
             <ul>
@@ -83,7 +83,7 @@ const Services = () => {
               <i>
               Includes bath with premium shampoo & conditioner and
                 blow dry, brush out, pads and paws & nail trim, ear
-                cleaning, sanitary trim, anal glands. Any extra de-matting is additional charge ($10 every 15 mins).
+                cleaning, sanitary trim, anal glands. Any extra de-matting is additional charge ($10).
               </i>
             </p>
             <ul>
