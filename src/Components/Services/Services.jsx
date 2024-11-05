@@ -56,7 +56,8 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="warning">Prices depend on * size of dog, breed of dog, condition of the coat, type of coat and behaviour of dog *</div>
+      {/* <div className="warning">Prices depend on * size of dog, breed of dog, condition of the coat, type of coat and behaviour of dog *</div> */}
+      <div className="warning">OUR SERVICES *THESE ARE STARTING PRICES & SUBJECT TO CHANGE</div>
       <div className="prices">
         <div className="all-services">
           <div className="price">
@@ -71,11 +72,11 @@ const Services = () => {
             <ul>
               <li>X-Small (under 12lbs) - $75 ~</li>
               <li>Small (13-20lbs) - $80 ~</li>
-              <li>Medium (21-30lbs) - $85 ~</li>
-              <li>Large (31-45lbs) - $100 ~</li>
-              <li>X-Large (46-70lbs) - $115 ~</li>
-              <li>XX-Large (71-90lbs) - $130 ~</li>
-              <li>Giant (over 91lbs) - Contact us</li>
+              <li>Medium (21-30lbs) - $90 ~</li>
+              <li>Large (31-40lbs) - $105 ~</li>
+              <li>X-Large (41-60lbs) - $120 ~</li>
+              <li>XX-Large (61-80lbs) - $135 ~</li>
+              <li>Giant (over 81lbs) - Contact us</li>
             </ul>
           </div>
           <div className="price">
@@ -89,12 +90,12 @@ const Services = () => {
             </p>
             <ul>
               <li>X-Small (under 12lbs) - $60 ~</li>
-              <li>Small (13-20lbs) - $65 ~</li>
-              <li>Medium (21-30lbs) - $70 ~</li>
-              <li>Large (31-40lbs) - $75 ~</li>
-              <li>X-Large (41-65lbs) - $90 ~</li>
-              <li>XX-Large (66-90lbs) - $110 ~</li>
-              <li>Giant (over 91lbs) - Contact us</li>
+              <li>Small (13-20lbs) - $70 ~</li>
+              <li>Medium (21-30lbs) - $80 ~</li>
+              <li>Large (31-40lbs) - $90 ~</li>
+              <li>X-Large (41-60lbs) - $110 ~</li>
+              <li>XX-Large (61-80lbs) - $125 ~</li>
+              <li>Giant (over 81lbs) - Contact us</li>
             </ul>
           </div>
           <div className="price">
