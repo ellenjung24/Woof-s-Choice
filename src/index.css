@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Readex+Pro&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Cabin", sans-serif;
+    /* font-family: "Cabin", sans-serif; */
+    /* font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 500;
+    font-style: normal; */
+    /* font-family: "Titillium Web", serif; */
+    /* font-weight: 400;
+    font-style: normal; */
+    /* font-family: "Readex Pro", sans-serif; */
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
 }
 
 body {

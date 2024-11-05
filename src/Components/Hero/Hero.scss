@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Readex+Pro&display=swap');
+
 .hero {
     width: 100%;
     min-height: 100vh;
@@ -17,7 +21,17 @@
 
     h1 {
         font-size: 50px;
-        font-weight: 1000;
+        // font-family: "M PLUS Rounded 1c", sans-serif;
+        // font-weight: 900;
+        // font-style: normal;
+        // font-family: "Readex Pro", sans-serif;
+        // font-optical-sizing: auto;
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
     }
 
     p {

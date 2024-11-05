@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 .about{
     margin: 100px auto;
     display: flex;
@@ -12,11 +14,13 @@
     }
 
     h2 {
-        font-size: 35px;
-        font-weight: 16px;
+        font-size: 34px;
+        font-weight: 600;
         color: #000F38;
         margin: 10px 0;
         margin-bottom: 20px;
+        // font-family: "Readex Pro", sans-serif;
+        // font-optical-sizing: auto;
     }
 
     p {
@@ -41,7 +45,7 @@
 }
 
 .name_emp {
-    font-weight: 1000;
+    font-weight: 600;
 }
 
 @media (max-width: 800px) {

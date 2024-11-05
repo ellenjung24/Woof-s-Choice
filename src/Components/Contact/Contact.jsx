@@ -54,8 +54,8 @@ const Contact = () => {
           <p><b>Fri</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 a.m. - 06:00 p.m.</p>
           <p><b>Sat</b> &nbsp;&nbsp; 9:00 a.m. - 06:00 p.m.</p>
           <p><b>Sun</b> &nbsp;&nbsp;9:00 a.m. - 06:00 p.m.</p> */}
-          <p><b>Mon - Fri</b>&nbsp; 10:00 a.m. - 06:00 p.m.</p>
-          <p><b>Sat - Sun</b>&nbsp; 09:00 a.m. - 06:00 p.m.</p>
+          <p>Mon - Fri&nbsp; 10:00 a.m. - 06:00 p.m.</p>
+          <p>Sat - Sun&nbsp; 09:00 a.m. - 06:00 p.m.</p>
         </div>
       
       </div>
