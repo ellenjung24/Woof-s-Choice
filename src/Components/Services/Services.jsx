@@ -136,9 +136,10 @@ const Services = () => {
               are more than 10 minutes late without notification, a fee may be
               applied at our discretion. We may also choose to reschedule you due
               to time restraints. Late Pick ups: please pick up your pets at the
-              notified time. Dogs not picked up within a reasonable time will be
+              notified time. 
+              {/* Dogs not picked up within a reasonable time will be
               subjected to a $1/minute fee or at end of day, a $50/night
-              boarding fee after 30 minutes of no notification.
+              boarding fee after 30 minutes of no notification. */}
             </p>
           </div>
           <div>
