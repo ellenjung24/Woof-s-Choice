@@ -70,12 +70,12 @@ const Services = () => {
               </i>
             </p>
             <ul>
-              <li>X-Small (under 12lbs) - $75 ~</li>
-              <li>Small (13-20lbs) - $80 ~</li>
-              <li>Medium (21-30lbs) - $90 ~</li>
-              <li>Large (31-40lbs) - $105 ~</li>
-              <li>X-Large (41-60lbs) - $120 ~</li>
-              <li>XX-Large (61-80lbs) - $135 ~</li>
+              <li>X-Small (under 10lbs) - $75 ~</li>
+              <li>Small (11-20lbs) - $85 ~</li>
+              <li>Medium (21-30lbs) - $95 ~</li>
+              <li>Large (31-40lbs) - $120 ~</li>
+              <li>X-Large (41-60lbs) - $150 ~</li>
+              <li>XX-Large (61-80lbs) - $170 ~</li>
               <li>Giant (over 81lbs) - Contact us</li>
             </ul>
           </div>
