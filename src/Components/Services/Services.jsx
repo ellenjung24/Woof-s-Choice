@@ -57,7 +57,7 @@ const Services = () => {
       </div>
 
       {/* <div className="warning">Prices depend on * size of dog, breed of dog, condition of the coat, type of coat and behaviour of dog *</div> */}
-      <div className="warning">* THESE ARE STARTING PRICES & SUBJECT TO CHANGE *</div>
+      <div className="warning">* Prices may adjust according to their specific needs, breed, size and coat type & condition. *</div>
       <div className="prices">
         <div className="all-services">
           <div className="price">
