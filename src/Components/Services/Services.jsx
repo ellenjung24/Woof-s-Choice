@@ -76,7 +76,7 @@ const Services = () => {
               <li>Large (31-40lbs) - $120 ~</li>
               <li>X-Large (41-60lbs) - $150 ~</li>
               <li>XX-Large (61-80lbs) - $170 ~</li>
-              <li>Giant (over 81lbs) - Contact us</li>
+              <li>Giant (over 81lbs) - $220 ~</li>
             </ul>
           </div>
           <div className="price">
