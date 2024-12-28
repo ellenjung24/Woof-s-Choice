@@ -15,7 +15,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <Promotion />
+      {/* <Promotion /> */}
       <div className="container">
         {/* <Title subTitle="About us" context="When it comes to pet grooming we believe that:" /> */}
         <About />
