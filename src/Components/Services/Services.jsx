@@ -110,6 +110,7 @@ const Services = () => {
               <li>Anal glands : $20</li>
               <li>Ear cleaning : $15</li>
               <li>Teeth brushing : $10</li>
+              <li>Face tidy : $10</li>
             </ul>
           </div>
         </div>
