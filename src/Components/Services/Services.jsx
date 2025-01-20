@@ -74,8 +74,9 @@ const Services = () => {
               <li>Small (11-20lbs) - $85 ~</li>
               <li>Medium (21-30lbs) - $95 ~</li>
               <li>Large (31-40lbs) - $120 ~</li>
-              <li>X-Large (41-60lbs) - $150 ~</li>
-              <li>XX-Large (61-80lbs) - $170 ~</li>
+              <li>X-Large (41-55lbs) - $150 ~</li>
+              <li>XX-Large (56-70lbs) - $170 ~</li>
+              <li>XXX-Large (71-80lbs) - $190 ~</li>
               <li>Giant (over 81lbs) - $220 ~</li>
             </ul>
           </div>
@@ -93,8 +94,10 @@ const Services = () => {
               <li>Small (11-20lbs) - $70 ~</li>
               <li>Medium (21-30lbs) - $80 ~</li>
               <li>Large (31-40lbs) - $90 ~</li>
-              <li>X-Large (41-60lbs) - $110 ~</li>
-              <li>XX-Large (61-80lbs) - $135 ~</li>
+              <li>X-Large (41-50lbs) - $100 ~</li>
+              <li>XX-Large (51-60lbs) - $110 ~</li>
+              <li>XXX-Large (61-70lbs) - $120 ~</li>
+              <li>XXXX-Large (71-80lbs) - $130 ~</li>
               <li>Giant (over 81lbs) - Contact us</li>
             </ul>
           </div>
