@@ -70,13 +70,13 @@ const Services = () => {
               </i>
             </p>
             <ul>
-              <li>X-Small (under 10lbs) - $75 ~</li>
-              <li>Small (11-20lbs) - $85 ~</li>
-              <li>Medium (21-30lbs) - $95 ~</li>
-              <li>Large (31-40lbs) - $120 ~</li>
-              <li>X-Large (41-55lbs) - $150 ~</li>
-              <li>XX-Large (56-70lbs) - $170 ~</li>
-              <li>XXX-Large (71-80lbs) - $190 ~</li>
+              <li>X-Small (under 10lbs) - $80 ~</li>
+              <li>Small (10-20lbs) - $95 ~</li>
+              <li>Medium (21-30lbs) - $115 ~</li>
+              <li>Large (31-40lbs) - $135 ~</li>
+              <li>X-Large (41-55lbs) - $160 ~</li>
+              <li>XX-Large (56-70lbs) - $180 ~</li>
+              <li>XXX-Large (71-80lbs) - $200 ~</li>
               <li>Giant (over 81lbs) - $220 ~</li>
             </ul>
           </div>
