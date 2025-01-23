@@ -71,8 +71,8 @@ const Services = () => {
             </p>
             <ul>
               <li>X-Small (~9lbs) - $80 ~</li>
-              <li>Small (10-20lbs) - $95 ~</li>
-              <li>Medium (21-30lbs) - $115 ~</li>
+              <li>Small (10-20lbs) - $90 ~</li>
+              <li>Medium (21-30lbs) - $110 ~</li>
               <li>Large (31-40lbs) - $135 ~</li>
               <li>X-Large (41-55lbs) - $160 ~</li>
               <li>XX-Large (56-70lbs) - $180 ~</li>
