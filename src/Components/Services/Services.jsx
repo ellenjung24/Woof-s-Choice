@@ -70,14 +70,13 @@ const Services = () => {
               </i>
             </p>
             <ul>
-              <li>X-Small (~9lbs) - $80 ~</li>
-              <li>Small (10-20lbs) - $90 ~</li>
-              <li>Medium (21-30lbs) - $110 ~</li>
-              <li>Large (31-40lbs) - $135 ~</li>
-              <li>X-Large (41-55lbs) - $160 ~</li>
-              <li>XX-Large (56-70lbs) - $180 ~</li>
-              <li>XXX-Large (71-80lbs) - $200 ~</li>
-              <li>Giant (over 81lbs) - $220 ~</li>
+              <li>X-Small (~ 9lbs) - $80 & up</li>
+              <li>Small (10-20lbs) - $90 & up</li>
+              <li>Small Medium (21-30lbs) - $110 & up</li>
+              <li>Medium (31-40lbs) - $130 & up</li>
+              <li>Large (41-60lbs) - $150 & up</li>
+              <li>X-Large (61-80lbs) - $170 & up</li>
+              <li>Giant (over 81lbs) - $220 & up</li>
             </ul>
           </div>
           <div className="price">
@@ -90,15 +89,12 @@ const Services = () => {
               </i>
             </p>
             <ul>
-              <li>X-Small (~9lbs) - $60 ~</li>
-              <li>Small (10-20lbs) - $70 ~</li>
-              <li>Medium (21-30lbs) - $80 ~</li>
-              <li>Large (31-40lbs) - $90 ~</li>
-              <li>X-Large (41-50lbs) - $100 ~</li>
-              <li>XX-Large (51-60lbs) - $110 ~</li>
-              <li>XXX-Large (61-70lbs) - $120 ~</li>
-              <li>XXXX-Large (71-80lbs) - $130 ~</li>
-              <li>Giant (over 81lbs) - Contact us</li>
+              <li>X-Small (~9lbs) - $60 & up</li>
+              <li>Small (10-20lbs) - $70 & up</li>
+              <li>Medium (21-40lbs) - $90 & up</li>
+              <li>Large (41-60lbs) - $110 & up</li>
+              <li>X-Large (61-80lbs) - $140 & up</li>
+              <li>Giant (over 81lbs) - $180 & up</li>
             </ul>
           </div>
           <div className="price">
