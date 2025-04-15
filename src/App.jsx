@@ -6,6 +6,7 @@ import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import dogAd from "./assets/dog-ad-2.png";
 // import Promotion from "./Components/Promotion/Promotion";
 // import { BrowserRouter } from 'react-router-dom'
 
@@ -24,16 +25,19 @@ const App = () => {
       <Navbar />
       <Hero />
       {show && (
-  <div className="custom-popup-overlay">
-    <div className="custom-popup">
-      <button onClick={handleClose} className="custom-popup-close">
-        ✕
-      </button>
-      <h2>🎉 Special Offer!</h2>
-      <p>Get 10% off your first grooming appointment.</p>
-      <button onClick={handleClose} className="custom-popup-btn">
-        Got it!
-      </button>
+  <div className="promo-overlay">
+    <div className="promo-box">
+      <div className="promo-image">
+        <img src={dogAd} alt="Special Offer" />
+      </div>
+      <div className="promo-content">
+        <button className="promo-close" onClick={handleClose}>✕</button>
+        <h2>Get 10% Off Your First Grooming</h2>
+        <p>Only in May — Book your appointment today!</p>
+        <a href="https://app.acuityscheduling.com/schedule.php?owner=33051599" target="_blank">
+          <button className="promo-btn">Book Now</button>
+        </a>
+      </div>
     </div>
   </div>
 )}

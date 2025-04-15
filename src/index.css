@@ -47,73 +47,132 @@ a {
     outline: 0;
 }
 
-.custom-popup-overlay {
+.promo-overlay {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 9999;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    align-items: center;
     justify-content: center;
-    overflow: hidden;
+    align-items: center;
+    z-index: 1000;
   }
   
-  .custom-popup {
+  .promo-box {
     background: white;
-    padding: 2rem;
-    border-radius: 16px;
-    width: 90%;
-    max-width: 400px;
-    text-align: center;
-    position: relative;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .custom-popup h2 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-  }
-  
-  .custom-popup p {
-    margin-bottom: 1.5rem;
-    color: #444;
-  }
-  
-  .custom-popup-btn {
-    background: #7c3aed; /* Purple */
-    color: white;
-    padding: 10px 20px;
-    border: none;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    max-width: 90%;
     border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
   }
   
-  .custom-popup-btn:hover {
-    background: #5b21b6; /* Darker purple */
+  .promo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 400px;
+    display: block;
   }
   
-  .custom-popup-close {
+  .promo-content {
+    padding: 30px 20px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .promo-close {
     position: absolute;
-    top: 10px;
-    right: 14px;
-    font-size: 1.2rem;
-    background: none;
+    top: 12px;
+    right: 16px;
+    font-size: 20px;
     border: none;
-    color: #888;
+    background: none;
+    color: #aaa;
     cursor: pointer;
   }
   
-  .custom-popup-close:hover {
-    color: black;
+  .promo-close:hover {
+    color: #000;
+  }
+  
+  .promo-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+  }
+  
+  .promo-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .promo-btn {
+    transition: background 0.2s;
+    background: #bea5b5;
+    color: white;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+  }
+  
+  .promo-btn:hover {
+    background-color: #333;
   }
 
 @media (max-width: 800px) {
     .container {
         padding-left: 2%;
         padding-right: 2%;
+    }
+
+    .promo-box {
+        flex-direction: column;
+        width: 80%;
+        height: 350px;
+        background-color: #bea5b5;
+      }
+    
+      .promo-image {
+        display: none;
+      }
+    
+      .promo-content {
+        padding: 30px 20px;
+      }
+
+      .promo-btn {
+        transition: background 0.2s;
+        background: #976785;
+        color: white;
+        padding: 14px 25px;
+        font-size: 20px;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+      }
+
+    .promo-close {
+        color: white;
+    }
+
+    .promo-content h2 {
+        color: white;
+    }
+
+    .promo-content p {
+        color: black;
     }
 }
