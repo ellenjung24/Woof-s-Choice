@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -58,12 +59,12 @@ a {
   }
   
   .promo-box {
-    background: white;
+    background-color: #a27993;
     display: flex;
     flex-direction: row;
     width: 800px;
     max-width: 90%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
     position: relative;
@@ -102,37 +103,57 @@ a {
     color: #000;
   }
   
-  .promo-content h2 {
+  .promo-content h4 {
+    font-family: "Poppins", sans-serif !important;
+    font-style: normal;
     font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #111;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
   }
   
   .promo-content p {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
-    margin-bottom: 30px;
-    color: #555;
+    margin-bottom: 10px;
+    color: white;
   }
   
   .promo-btn {
     transition: background 0.2s;
-    background: #bea5b5;
-    color: white;
+    background: white;
+    color: black;
+    width: 90%;
     padding: 14px 25px;
     font-size: 16px;
-    border-radius: 30px;
     cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
     border: 0;
     outline: 0;
+    font-family: "Poppins", sans-serif !important;
+    font-style: normal;
   }
   
-  .promo-btn:hover {
-    background-color: #333;
+  /* .promo-btn:hover {
+    background-color: #bea5b5;
+    color: white;
+  } */
+
+  .no-thanks {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
   }
 
+  .promo-close {
+    color: white;
+}
+
 @media (max-width: 800px) {
-    .container {
+    .container{
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -140,8 +161,7 @@ a {
     .promo-box {
         flex-direction: column;
         width: 80%;
-        height: 350px;
-        background-color: #bea5b5;
+        height: 500px;
       }
     
       .promo-image {
@@ -151,28 +171,4 @@ a {
       .promo-content {
         padding: 30px 20px;
       }
-
-      .promo-btn {
-        transition: background 0.2s;
-        background: #976785;
-        color: white;
-        padding: 14px 25px;
-        font-size: 20px;
-        border-radius: 30px;
-        cursor: pointer;
-        border: 0;
-        outline: 0;
-      }
-
-    .promo-close {
-        color: white;
-    }
-
-    .promo-content h2 {
-        color: white;
-    }
-
-    .promo-content p {
-        color: black;
-    }
 }

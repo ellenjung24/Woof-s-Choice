@@ -31,12 +31,15 @@ const App = () => {
         <img src={dogAd} alt="Special Offer" />
       </div>
       <div className="promo-content">
-        <button className="promo-close" onClick={handleClose}>✕</button>
-        <h2>Get 10% Off Your First Grooming</h2>
-        <p>Only in May — Book your appointment today!</p>
+      <button className="promo-close" onClick={handleClose}>✕</button>
+
+        <p>Enjoy an extra</p>
+        <h4>10% Off</h4>
+        <p>First grooming appointment in May</p>
         <a href="https://app.acuityscheduling.com/schedule.php?owner=33051599" target="_blank">
           <button className="promo-btn">Book Now</button>
         </a>
+        <span className="no-thanks" onClick={handleClose}>No, Thanks</span>
       </div>
     </div>
   </div>
