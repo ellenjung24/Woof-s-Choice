@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Services from "./Components/Services/Services";
@@ -18,32 +18,39 @@ const App = () => {
   }, []);
 
   const handleClose = () => setShow(false);
-  
+
   return (
     // <BrowserRouter>
     <div>
       <Navbar />
       <Hero />
-      {show && (
-  <div className="promo-overlay">
-    <div className="promo-box">
-      <div className="promo-image">
-        <img src={dogAd} alt="Special Offer" />
-      </div>
-      <div className="promo-content">
-      <button className="promo-close" onClick={handleClose}>✕</button>
+      {/* {show && (
+        <div className="promo-overlay">
+          <div className="promo-box">
+            <div className="promo-image">
+              <img src={dogAd} alt="Special Offer" />
+            </div>
+            <div className="promo-content">
+              <button className="promo-close" onClick={handleClose}>
+                ✕
+              </button>
 
-        <p>Enjoy an extra</p>
-        <h4>10% Off</h4>
-        <p>First grooming appointment in May</p>
-        <a href="https://app.acuityscheduling.com/schedule.php?owner=33051599" target="_blank">
-          <button className="promo-btn">Book Now</button>
-        </a>
-        <span className="no-thanks" onClick={handleClose}>No, Thanks</span>
-      </div>
-    </div>
-  </div>
-)}
+              <p>Enjoy an extra</p>
+              <h4>10% Off</h4>
+              <p>First grooming appointment in May</p>
+              <a
+                href="https://app.acuityscheduling.com/schedule.php?owner=33051599"
+                target="_blank"
+              >
+                <button className="promo-btn">Book Now</button>
+              </a>
+              <span className="no-thanks" onClick={handleClose}>
+                No, Thanks
+              </span>
+            </div>
+          </div>
+        </div>
+      )} */}
       {/* <Promotion /> */}
       <div className="container">
         {/* <Title subTitle="About us" context="When it comes to pet grooming we believe that:" /> */}
