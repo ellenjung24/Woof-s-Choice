@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Readex+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Nanum+Pen+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
     margin: 0;
@@ -35,6 +36,30 @@ a {
 .container {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+/* Headings - by HDC */
+.h2, h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.h3, h3 {
+  font-size: 33px;
+  text-transform: capitalize;
+}
+.h4, h4{
+  font-size: 27px;
+  text-transform: capitalize;
+}
+.h5, h5{
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 2px;
+}
+.h6 h6 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .btn {
@@ -150,6 +175,33 @@ a {
 
   .promo-close {
     color: white;
+}
+
+/* by HDC */
+.padding-20 {
+  padding-top: 20px;
+}
+.padding-30 {
+  padding-top: 30px;
+}
+.padding-50 {
+  padding-top: 50px;
+}
+
+/* text animation for Promotion - by HDC */
+.discount {
+  color: #fff;
+  text-shadow: 4px 4px 0 #ec90a1, 8px 8px 0 #d34169;
+  animation: promotion-dance 2s infinite;
+}
+
+@keyframes promotion-dance {
+  0%, 100% {
+      text-shadow: 4px 4px 0 #ec90a1, 8px 8px 0 #d34169;
+  }
+  50% {
+      text-shadow: -4px -4px 0 #ec90a1, -8px -8px 0 #d34169;
+  }
 }
 
 @media (max-width: 800px) {

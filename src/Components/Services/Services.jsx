@@ -153,6 +153,26 @@ const Services = () => {
         </div>
       </div>
 
+{/* ADDED - by HDC */}
+    <div className="service_grid">
+      <div className="service_grid-left">
+        <div className="service_text">
+          <h3 className="discount">15&#37; Off</h3>
+          <h4>&nbsp;On Full Grooming &amp; Bath &amp; Tidy&nbsp;</h4>
+        </div>
+      </div>
+      <div className="service_grid-right">
+        <h2>Thank You Promotion</h2>
+        <h3>through May &amp; June</h3>
+        <p>Expires on June 30, 2025</p>
+        <div className="padding-30"></div>
+        <a href="https://app.acuityscheduling.com/schedule.php?owner=33051599" target="_blank" className='btn'>BOOK NOW</a>
+        <div className="padding-20"></div>
+        <div className="disclaimer">*1 time only. <br />**This offer cannot be combined with any other offer. No cash value. Limit one service per visit.</div>
+      </div>
+    </div>
+{/* /ADDED - by HDC */}
+
       <div className="booking">
         <h1>Book Online below or call {isMobile && <br />} 604-731-1692</h1>
         <div className="book-online">
