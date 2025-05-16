@@ -153,6 +153,13 @@ const Services = () => {
               There will also be a $20 charge towards your next appointment.
             </p>
           </div>
+          <h2>Extra/Add-ons</h2>
+          <ul style={{ "margin-top": "20px" }}>
+              <li>De-matting : $20/15 mins</li>
+              <li>De-shedding : $15/15mins</li>
+              <li>Poodle feet : $20</li>
+              <li>Behaviour : + $20-30</li>
+          </ul>
         </div>
       </div>
 
