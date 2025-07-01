@@ -172,14 +172,14 @@ const Services = () => {
       <div className="service_grid">
         <div className="service_grid-left">
           <div className="service_text">
-            <h3 className="discount">15&#37; Off</h3>
-            <h4>&nbsp;On Full Grooming &amp; Bath &amp; Tidy&nbsp;</h4>
+            <h3 className="discount">10&#37; Off</h3>
+            <h4 className="services_animated">&nbsp;On Full Grooming &amp; Bath &amp; Tidy&nbsp;</h4>
           </div>
         </div>
         <div className="service_grid-right">
-          <h2>Thank You Promotion</h2>
-          <h3>through May &amp; June</h3>
-          <p>Expires on June 30, 2025</p>
+          <h2>Welcome Offer</h2>
+          <h3>10% Off Your First Grooming Appointment</h3>
+          <p>From July 1, 2025</p>
           <div className="padding-30"></div>
           <a
             href="https://app.acuityscheduling.com/schedule.php?owner=33051599"
