@@ -64,66 +64,80 @@ const Services = () => {
       <div className="prices">
         <div className="all-services">
           <div className="price">
+            <h2>BATH AND TIDY</h2>
+            <p className="description">
+              <i>
+                Includes bath with premium shampoo & conditioner and blow dry,
+                brush out, pads and paws & nail trim, ear cleaning, and sanitary
+                trim for hygiene.
+              </i>
+            </p>
+            <ul>
+              <li>X-Small (~9lbs) - $80 & up</li>
+              <li>Small (10-19lbs) - $90 & up</li>
+              <li>Small Medium (20-29lbs) - $100 & up</li>
+              <li>Medium (30-39lbs) - $110 & up</li>
+              <li>Large (40-59lbs) - $130 & up</li>
+              <li>X-Large (60-79lbs) - $150 & up</li>
+              <li>XX-Large (80-99lbs) - $180 & up</li>
+              <li>Giant (over 100lbs) - $210 & up</li>
+            </ul>
+          </div>
+          <div className="price">
             <h2>FULL GROOMING</h2>
             <p className="description">
               <i>
                 Includes full clipping, hand scissoring to finish, bath with
                 premium shampoo & conditioner and blow dry, brush out, pads and
-                paws & nail trim, ear cleaning, sanitary trim, anal glands. Any
-                extra de-matting is additional charge ($15).
+                paws & nail trim, ear cleaning, sanitary trim for hygiene.
               </i>
             </p>
             <ul>
-              <li>X-Small (~ 9lbs) - $80 & up</li>
-              <li>Small (10-20lbs) - $90 & up</li>
-              <li>Small Medium (21-30lbs) - $110 & up</li>
-              <li>Medium (31-40lbs) - $130 & up</li>
-              <li>Large (41-60lbs) - $150 & up</li>
-              <li>X-Large (61-80lbs) - $170 & up</li>
-              <li>Giant (over 81lbs) - $220 & up</li>
+              <li>X-Small (~9lbs) - $95 & up</li>
+              <li>Small (10-19lbs) - $105 & up</li>
+              <li>Small Medium (20-29lbs) - $115 & up</li>
+              <li>Medium (30-39lbs) - $130 & up</li>
+              <li>Large (40-59lbs) - $155 & up</li>
+              <li>X-Large (60-79lbs) - $180 & up</li>
+              <li>XX-Large (80-99lbs) - $220 & up</li>
+              <li>Giant (over 100lbs) - $250 & up</li>
             </ul>
           </div>
           <div className="price">
-            <h2>BATH AND TIDY</h2>
+            <h2>BATH & DRY</h2>
             <p className="description">
               <i>
                 Includes bath with premium shampoo & conditioner and blow dry,
-                brush out, pads and paws & nail trim, ear cleaning, sanitary
-                trim, anal glands. Any extra de-matting is additional charge
-                ($15).
+                brush out, nail trim, ear cleaning.
               </i>
             </p>
             <ul>
-              <li>X-Small (~9lbs) - $60 & up</li>
-              <li>Small (10-20lbs) - $70 & up</li>
-              <li>Medium (21-40lbs) - $90 & up</li>
-              <li>Large (41-60lbs) - $110 & up</li>
-              <li>X-Large (61-80lbs) - $140 & up</li>
-              <li>Giant (over 81lbs) - $180 & up</li>
+              <li>X-Small (~9lbs) - $50 & up</li>
+              <li>Small (10-19lbs) - $60 & up</li>
+              <li>Small Medium (20-29lbs) - $70 & up</li>
+              <li>Medium (30-39lbs) - $80 & up</li>
+              <li>Large (40-59lbs) - $100 & up</li>
+              <li>X-Large (60-79lbs) - $125 & up</li>
+              <li>XX-Large (80-99lbs) - $150 & up</li>
+              <li>Giant (over 100lbs) - $180 & up</li>
             </ul>
           </div>
-          <div className="price">
-            <h2 style={{ "margin-bottom": "20px" }}>
-              A-LA-CARTE SERVICES <br />
-              (WALK-INS ARE WELCOMED)
-            </h2>
-            <ul>
-              <li>Nail trim : $20</li>
-              <li>Sanitary trim : $15</li>
-              <li>Pad shaving and Paw shaping : $15</li>
-              <li>Anal glands : $20</li>
-              <li>Ear cleaning : $15</li>
-              <li>Teeth brushing : $10</li>
-              <li>Face tidy : $20</li>
-            </ul>
-          </div>
+
           <div className="price">
             <h2>Extra/Add-ons</h2>
             <ul style={{ "margin-top": "20px" }}>
-              <li>De-matting : $15/15 mins</li>
-              <li>De-shedding : $15/15mins</li>
-              <li>Poodle feet : $20</li>
-              <li>Behaviour : + $20-30</li>
+              <li>Anal grands: $20</li>
+              <li>Teeth brushing: $15</li>
+              <li>De-shedding : $20/10 mins</li>
+              <li>De-matting : $30/10 mins</li>
+              <li>Ear cleaning & plucking: $25</li>
+              <li>Paw pad shaving & tidy: $15</li>
+              <li>Nail & glinding: $20</li>
+              <li>Eye area trim: $15</li>
+              <li>Sanitary & belly trimming: $20</li>
+              <li>Face Trim: $25</li>
+              <li>An ungroomed dog (Dirty): $20</li>
+              <li>Poodle feet: $30</li>
             </ul>
           </div>
         </div>
