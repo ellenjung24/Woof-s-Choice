@@ -132,7 +132,7 @@ const Services = () => {
               <li>De-matting : $30/10 mins</li>
               <li>Ear cleaning & plucking: $25</li>
               <li>Paw pad shaving & tidy: $15</li>
-              <li>Nail & glinding: $20</li>
+              <li>Nail & grinding: $20</li>
               <li>Eye area trim: $15</li>
               <li>Sanitary & belly trimming: $20</li>
               <li>Face Trim: $25</li>
