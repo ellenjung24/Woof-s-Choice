@@ -189,10 +189,36 @@ a {
 }
 
 /* text animation for Promotion - by HDC */
+.title_offer {
+  animation-name: scale-opacity;
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(.67,.45,.68,1.64);
+}
+
 .discount {
   color: #fff;
   text-shadow: 4px 4px 0 #ec90a1, 8px 8px 0 #d34169;
   animation: promotion-dance 2s infinite;
+}
+
+.offers_animated {
+  animation: slide-in-text 1.5s;
+  animation-delay: 300ms;
+}
+
+.services_bg_animated {
+  animation: bg-colours 3s infinite;
+}
+
+@keyframes scale-opacity {
+  from {
+    opacity: 0;
+    transform: scale(.9, .9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
 }
 
 @keyframes promotion-dance {
@@ -201,6 +227,27 @@ a {
   }
   50% {
       text-shadow: -4px -4px 0 #ec90a1, -8px -8px 0 #d34169;
+  }
+}
+
+@keyframes slide-in-text {
+  from {
+    translate: 20vw 0;
+    scale: 120% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+@keyframes bg-colours {
+  0%, 100% {
+    background-color: #ec90a1;
+  }
+  50% {
+    background-color: #d34169;
   }
 }
 
