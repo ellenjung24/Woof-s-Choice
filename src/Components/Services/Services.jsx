@@ -68,7 +68,7 @@ const Services = () => {
             <p className="description">
               <i>
                 Includes bath with premium shampoo & conditioner and blow dry,
-                brush out, pads and paws & nail trim, ear cleaning, and sanitary
+                brush out, trimming around eye area, pads and paws & nail trim, ear cleaning, and sanitary
                 trim for hygiene.
               </i>
             </p>
