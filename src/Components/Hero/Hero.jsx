@@ -14,7 +14,7 @@ const Hero = () => {
           {/* discount */}
         </div>
         {/* offers_animated */}
-        {/* h4 services_bg_animated" */}
+        <h4 className="services_bg_animated">Book your pet’s next spa day today — gentle hands, happy tails.</h4>
         <div className="padding-50"></div>
         <Link to="booking" smooth={true} offset={-160} duration={500} className='btn'>BOOK NOW</Link>
         {/* disclaimer */}
