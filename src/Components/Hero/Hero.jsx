@@ -6,18 +6,20 @@ const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero_text promotion_big">
-        <div className="padding-20"></div>
-        <h3>Woof's Choice Pet Grooming</h3>
-          <h2 className="title_offer">Quality Grooming & Personal Care for Your Best Friend in Kitsilano</h2>
+        <h5>Woof's Choice Pet Grooming</h5>
+       
+          <h2 className="title_offer">Welcome Offer</h2>
+      
         <div className="padding-20"></div>
         <div className="promotion-dance-container">
-          {/* discount */}
+          <h3 className="discount">5&#37; Off</h3>
         </div>
-        {/* offers_animated */}
-        <h4 className="services_bg_animated">Book your pet’s next spa day today — gentle hands, happy tails.</h4>
+        <h3 className="offers_animated">Your First Grooming Appointment</h3>
+        <h4 className="services_bg_animated">on Full Grooming</h4>
+        <p>*1 time only </p>
         <div className="padding-50"></div>
         <Link to="booking" smooth={true} offset={-160} duration={500} className='btn'>BOOK NOW</Link>
-        {/* disclaimer */}
+        <div className="disclaimer">**This offer cannot be combined with any other offer. No cash value. Limit one service per visit.</div>
         </div>  
     </div>
   )
